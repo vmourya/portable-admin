@@ -1,0 +1,38 @@
+*{margin: 0; padding:0; border: none; max-width: 100%; color: #414141; font-size: 15px; font-family: sans-serif; box-sizing:border-box; border-collapse:collapse;}
+.tables > h1 { float: left; margin-bottom: 10px;text-align: center; text-transform: uppercase; width: 100%;}
+.tables > h1 > a {float: right; font-size: 10px; text-transform: capitalize;}
+table{width: 100%;border:1px solid #52A7CF; border-spacing: 0;}
+tbody tr{border-top: 1px solid #52A7CF; background: #F8F8F7;}
+tbody tr:nth-child(odd){background: #EFF0F1;}
+tbody tr:hover{background: #E0EAF1;}
+th{text-transform: uppercase;}
+th,td{padding: 5px 10px; cell-spacing:0; text-align: left;  border-right: 1px solid #cdcdcd;}
+th:last-child,td:last-child{border:none;}
+a{text-decoration: none; color:#10719E;}
+a:hover{color:#4285F4;}
+.tables tr td:first-child{text-transform: capitalize;}
+#admindata {float: left;padding: 1%;width: 100%; }
+.admin-wrapper{float: left;width: 100%;}
+.loader-wrapper{position: relative; width: 100%; height: 100%; min-height: 500px; float:left;}
+.loader-wrapper img{position: absolute; left:45%; top:30%;}
+.table-data-popup {background: #fff none repeat scroll 0 0; border: 1px solid #326d74; border-radius: 10px; min-height: 94%; left: 1%; margin: 0 auto; padding: 1%; position: absolute; text-align: center; top: 1%; width: 98%}
+.table-data-popup:last-child { height: 98%; position: fixed;}
+.center-text{text-align: center;}
+.table-data-header h1 { border-bottom: 1px solid; position: relative; text-align: center; text-transform: uppercase; width: 100%; }
+.table-data-header h1 a{color: #d30a00; position: absolute; right: 0; text-transform: initial; top: -8px; }
+.table-data-rows{ overflow: auto; height: 94%;}
+.table-config-form h1 { margin-bottom: 20px; text-align: center; width: 100%; }
+.table-config-form form {border: 1px solid #73aee3; border-radius: 5px;margin: 0 auto; padding: 10px; width: 50%;}
+.table-config-form form fieldset {padding: 10px 0; border-bottom: 1px solid #73aee3; position: relative;}
+.table-config-form form fieldset:last-child {border: medium none; }
+.table-config-form form label { color: #4a4a4a; float: left; padding: 5px 0; width: 30%;}
+.table-config-form form label span { float: left; font-size: 10px; width: 100%; }
+.table-config-form form input,.table-config-form form select { background:#ffffff; border: 1px solid #ddd; padding: 3px 10px; width: 70%;}
+.table-config-form form select option { padding: 3px 10px; width: 100%;}
+
+.table-config-form form input:focus, .table-config-form form input:hover{ border: 1px solid #999; }
+.table-config-form form fieldset > a {margin:0 5px;background: #fff none repeat scroll 0 0; border: 1px solid #ddd; cursor: pointer; padding: 3px 5px; }
+.table-config-form form fieldset > a:hover{ border:1px solid #999; }
+.table-config-form form fieldset a.delete-icon {color: #cc3434;float: right;font-weight: normal;}
+.table-config-form form fieldset div{width: 100%; float: left; margin: 5px 0;}
+span.table-config-note { color: #9a9a9a; font-size: 12px; width: 100%; }

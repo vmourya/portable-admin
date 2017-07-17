@@ -1,0 +1,1 @@
+<?php $tables='[{"table":"users","jointable":"comments,posts,todos","columnfrom":"id","columnto":"user_id"},{"table":"posts","jointable":"comments","columnfrom":"id","columnto":"post_id"},{"table":"todos","jointable":"users","columnfrom":"user_id","columnto":"id"}]'; define("TABLES", $tables);?>
